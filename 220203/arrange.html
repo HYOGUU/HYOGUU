@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <style>
+            body{
+                height:3000px;
+            }
+            #parent, #other, #grand{
+                border:5px solid tomato;
+                padding:10px;
+                margin:10px;
+            
+            }
+            #grand{
+                position:relative;
+            }
+            #me{
+                background-color:black;
+                color:white;
+                position:absolute;
+                left:0;
+                top:0;
+    
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="other">
+            other
+        </div>
+        <div id="grand">
+            grand
+            <div id="me">
+                me
+            </div>
+        </div>
+        <div id="parent">
+            parent
+        </div>
+
+    </body>
+</html>
